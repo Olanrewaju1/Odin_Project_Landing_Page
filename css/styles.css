@@ -1,0 +1,160 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9FAF8; /* Set a background color for the entire page */
+     /* Text color for the entire page */
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    background-color: #1F2937;
+}
+
+.sub_wrapper{
+    max-width:1000px;
+    margin-left: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    color:#F9FAF8
+}
+
+
+
+nav ul{
+    display: flex;
+    width:35vw;
+    justify-content: space-between;
+    padding-left: 35px;
+    
+}
+
+
+nav ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+    
+}
+
+.first-hero{
+   line-height: 0.9;
+}
+
+.first-hero h1{
+    font-size: 48px;
+    color:#F9FAF8
+}
+
+.first-hero p{
+    font-size:18px;
+    color:#E5E7EB;
+    letter-spacing:3px;
+}
+
+input[value="Sign Up"]{
+    font-size: 16px;
+    padding:10px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    width:150px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.section1{
+    width:900px;
+    margin:20px auto;
+    height:80vh;
+    
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.section2 h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+.sub_section2{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    width:150px;
+    height: 200px;
+    border:5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.container p{
+    line-height: 1;
+    word-spacing: 1px;
+}
+
+.bquote{
+    background-color: #E5E7EB;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+
+}
+
+blockquote{
+    font-size: 36px;
+    margin: 3px auto;
+}
+
+cite{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
